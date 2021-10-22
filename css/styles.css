@@ -150,6 +150,7 @@ body {
 
 .slider {
     margin-top: 75px;
+    margin-bottom: 140px;
 }
 .slider h2 {
     color: #000;
@@ -189,7 +190,6 @@ body {
 
 
 .aside {
-    margin-top: 143px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -348,4 +348,153 @@ body {
 }
 .social-media li {
     margin-right: 15px;
+}
+
+
+
+.header-nosotros {
+    background-color: #fff;
+    margin-top: 128px;
+}
+.header-nosotros h1 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.header-nosotros p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+}
+.header-nosotros .content,
+.header-nosotros .figure {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-nosotros .content {
+    width: 481px;
+    margin-right: 114px;
+}
+.header-nosotros .figure {
+    width: 575px;
+    height: 414px;
+    border-radius: 30px;
+}
+
+
+.que-hacemos {
+    padding-top: 96px;
+    margin-bottom: 140px;
+}
+.que-hacemos h2 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #000;
+    margin-bottom: 32px;
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxes .box {
+    flex-basis: 375px;
+    height: 118px;
+    background-color: #28D775;
+    border-radius: 20px;
+    margin-bottom: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes .box h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.que-hacemos h4 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.voluntariado {
+    margin-top: 165px;
+    margin-bottom: 70px;
+}
+.voluntariado h2 {
+    font-size: 36px;
+    line-height: 45px;
+    color: #000;
+    margin-bottom: 70px;
+}
+.boxes {
+    font-size: 0;
+}
+.voluntariado .buttons,
+.voluntariado .info {
+    display: inline-block;
+}
+.voluntariado .buttons {
+    width: 373px;
+    height: 140px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.voluntariado .buttons a {
+    display: block;
+    text-align: center;
+    height: 70px;
+    font-size: 24px;
+    line-height: 70px;
+}
+.voluntariado .buttons .gray {
+    background-color: #EEEEEE;
+    color: #282828;
+}
+.voluntariado .buttons .green {
+    background-color: #28D775;
+    color: #FAFAFA;
+}
+.voluntariado .info {
+    padding: 35px 79px;
+    background-color: #EEEEEE;
+    border-radius: 30px;
+    width: 777px;
+}
+.voluntariado .info h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.voluntariado .info p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #161616;
+    margin-bottom: 15px;
+}
+.voluntariado .info small {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #161616;
+}
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+.buttons-container .button {
+    width: 277px;
+}
+.banner-voluntariado {
+    margin-bottom: 30px;
 }
